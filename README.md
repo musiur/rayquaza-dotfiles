@@ -1,4 +1,4 @@
-# ⚙️ rayquaza Setup
+# ⚙️ rayquaza setup
 
 This repository contains my personal dotfiles and configuration for a minimal, clean, and keyboard-driven Arch Linux system using **i3**, **Polybar**, and **PipeWire**. It is optimized for performance, clarity, and reproducibility across devices.
 
