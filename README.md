@@ -173,10 +173,10 @@ scan on
 
 ```
 dotfiles/
-│   ├── i3/
-│   ├── polybar/
-│   ├── picom/
-│   └── ...
+├── i3/
+├── polybar/
+├── picom/
+└── ...
 ├── pkglist.txt
 ├── Makefile
 ├── setup.sh
