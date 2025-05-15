@@ -3,7 +3,9 @@
 This repository contains my personal dotfiles and configuration for a minimal, clean, and keyboard-driven Arch Linux system using **i3**, **Polybar**, and **PipeWire**. It is optimized for performance, clarity, and reproducibility across devices.
 
 ---
+![screenshot](screenshot.png)
 
+---
 
 
 ## 🚀 Setup Instructions
@@ -163,24 +165,19 @@ scan on
 
 ---
 
-## 📸 Preview
-
-![screenshot](screenshot.png)
-
----
 
 ## 📁 Folder Structure
 
 ```
 dotfiles/
-├── i3/
-├── polybar/
-├── picom/
-└── ...
-├── pkglist.txt
-├── Makefile
-├── setup.sh
-└── README.md
+  ├── i3/
+  ├── polybar/
+  ├── picom/
+  └── ...
+  ├── pkglist.txt
+  ├── Makefile
+  ├── setup.sh
+  └── README.md
 ```
 
 ---
@@ -189,11 +186,4 @@ dotfiles/
 
 * [Arch Wiki](https://wiki.archlinux.org/)
 * [r/unixporn](https://www.reddit.com/r/unixporn/)
-* DistroTube, Luke Smith, ChrisTitusTech
-
-```
-
 ---
-
-You're all set. Copy this into your `README.md`, and your dotfiles repo will look 🔥 on GitHub. Let me know if you want to auto-detect monitor setup or add some shell functions too!
-```
