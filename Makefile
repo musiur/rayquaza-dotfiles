@@ -6,7 +6,7 @@ link:
 	@ln -sf ~/dotfiles/polybar ~/.config/polybar
 
 packages:
-	sudo pacman -Syu --needed i3-wm polybar picom kitty dmenu nerd-fonts jetbrains-mono-nerd ttf-font-awesome unzip git base-devel --noconfirm
+	sudo pacman -S --needed - < ~/dotfiles/pkglist.txt --noconfirm
 
 update:
 	@git add .
