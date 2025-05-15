@@ -1,13 +1,30 @@
-Sure! Here's the `README.md` content in **pure Markdown format**, ready for GitHub:
-
-````markdown
-# ⚙️ Musiur's Minimal Arch Linux Setup
+# ⚙️ rayquaza Setup
 
 This repository contains my personal dotfiles and configuration for a minimal, clean, and keyboard-driven Arch Linux system using **i3**, **Polybar**, and **PipeWire**. It is optimized for performance, clarity, and reproducibility across devices.
 
 ---
 
-## 🖥️ Features
+
+
+## 🚀 Setup Instructions
+
+```bash
+git clone git@github.com:yourusername/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+./setup.sh
+```
+
+Or use the Makefile for modular install:
+
+```bash
+make install        # Set up everything
+make update         # Commit & push changes
+make pull           # Pull latest changes
+```
+
+---
+
+## 📦 Full Package List
 
 - **i3 Window Manager** – tiling WM for power users
 - **Polybar** – status bar with custom modules
@@ -30,8 +47,6 @@ This repository contains my personal dotfiles and configuration for a minimal, c
 
 ---
 
-## 📦 Full Package List
-
 To install all dependencies:
 
 ```bash
@@ -42,24 +57,6 @@ Update the list anytime with:
 
 ```bash
 pacman -Qqe > pkglist.txt
-```
-
----
-
-## 🚀 Setup Instructions
-
-```bash
-git clone git@github.com:yourusername/dotfiles.git ~/dotfiles
-cd ~/dotfiles
-./setup.sh
-```
-
-Or use the Makefile for modular install:
-
-```bash
-make install        # Set up everything
-make update         # Commit & push changes
-make pull           # Pull latest changes
 ```
 
 ---
