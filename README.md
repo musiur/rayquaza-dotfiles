@@ -173,7 +173,6 @@ scan on
 
 ```
 dotfiles/
-├── .config/
 │   ├── i3/
 │   ├── polybar/
 │   ├── picom/
